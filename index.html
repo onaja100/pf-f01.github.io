@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ย้ายผักจากโฟมไปโต๊ะจริง</title>    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+  <body>    
+    <div class="container">
+      <h1 class="h1">ย้ายจากอนุบาลสองไปโต๊ะจริง</h1>
+    </div>
+    <br>
+      <form action="" name="finalmove" method="POST">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="alert alert-success">1. เลือกโต๊ะอนุบาลสองที่ต้องการ <span class="float-right text-danger">น้ำลึก :A01-A57 | น้ำตื้น :B01-B40</span></div>  
+              <table class="table table-hover table-sm">
+                <tr><th>เบอร์โต๊ะ</th><th>ชนิดผัก</th><th>ระยะเวลาปลูก(วัน)</th><th>วันที่ลงโต๊ะ(โฟม/ราง)</th><th>เลือก</th></tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>                  
+                </tr>         
+              </table>
+            </div>
+            <div class="col-sm-6">
+              <div class="alert alert-success">
+                2. ย้ายไป โต๊ะจริง : เบอร์   <span class="float-right text-danger">*****ข้อมูลจะขึ้นเฉพาะโต๊ะว่าง*****</span>
+              </div>
+              <div class="container">
+                <div class="text-primary font-weight-normal mb-2">ริมสีม่วง : </div>
+                <button type="button" class="btn btn-outline-info" id="btn1">B</button>
+                <button type="button" class="btn btn-outline-info" id="btn2">C</button>
+                <button type="button" class="btn btn-outline-info" id="btn3">D</button>
+                <button type="button" class="btn btn-outline-info" id="btn4">E</button>
+                <button type="button" class="btn btn-outline-info" id="btn5">F</button>
+              </div>
+              <hr>
+              <div class="container mb-2">
+                <div class="text-success font-weight-normal mb-2">ป่าไม้ : </div>
+                <button type="button" class="btn btn-outline-info" id="btn6">G</button>
+                <button type="button" class="btn btn-outline-info" id="btn7">H</button>
+                <button type="button" class="btn btn-outline-info" id="btn8">I</button>
+                <button type="button" class="btn btn-outline-info" id="btn9">J</button>
+                <button type="button" class="btn btn-outline-info" id="btn10">K</button>
+                <button type="button" class="btn btn-outline-info" id="btn11">L</button>
+                <button type="button" class="btn btn-outline-info" id="btn12">M</button>
+                <button type="button" class="btn btn-outline-info" id="btn13">N</button>
+                <button type="button" class="btn btn-outline-info" id="btn14">O</button>
+                <button type="button" class="btn btn-outline-info" id="btn15">P</button>
+              </div>
+              <hr>
+              <div id="thirdtable"></div>
+              <br>
+              <div>
+                <p>สภาพต้นกล้า อ.2</p>
+                <div class="input-group mb-2">
+                  <label class="input-group-text" for="root">ราก :</label>
+                  <select class="mr-2" name="root" id="root" required>
+                    <option value="0" selected>สมบูรณ์</option>
+                    <option value="1">เริ่มดำ</option>
+                    <option value="2">สั้น</option>           
+                  </select>                
+                </div>
+                <div class="input-group mb-2">
+                  <label class="input-group-text" for="trunk">ลำต้น :</label>
+                  <select class="mr-2" name="trunk" id="trunk" required>
+                    <option value="0" selected>สมบูรณ์</option>
+                    <option value="1">ยืด</option>
+                    <option value="2">เล็ก</option>           
+                  </select>                
+                </div> 
+              </div>
+              <div>
+                <input class="btn btn-primary" id="btn" type="submit" value="ตกลง">
+              </div>
+            </div> 
+          </div>
+        </div>
+      </form>     
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>       
+  </body>
+</html>
